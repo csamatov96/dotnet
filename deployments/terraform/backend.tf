@@ -2,6 +2,6 @@ terraform {
   backend "gcs" {
     bucket  = "fuchicorp"
     prefix  = "dev/cramis"
-    project = "gold-order-274923"
+    project = "even-gear-275507"
   }
 }

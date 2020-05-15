@@ -13,5 +13,5 @@ variable "deployment_endpoint" {
   }
 }
 variable "deployment_image" {
-  default = "docker.fuchicorp.com/cramis-dev:0.3"
+  default = "docker.csamatov.com/example:0.2"
 }

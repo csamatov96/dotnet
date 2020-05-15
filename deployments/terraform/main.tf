@@ -1,6 +1,6 @@
 module "cramis-deploy" {
   source  = "fuchicorp/chart/helm"
-  deployment_name        = "cramis-platform"
+  deployment_name        = "dotnetapp"
   deployment_environment = "${var.deployment_environment}"
   deployment_endpoint    = "${lookup(var.deployment_endpoint, "${var.deployment_environment}")}"
   deployment_path        = "cramis"

@@ -1,0 +1,5 @@
+deployment_image = "docker.fuchicorp.com/cramisdev-feature:7dc0478"
+deployment_environment = "dev"
+deployment_name = "cramis"
+google_bucket_name = "fuchicorp"
+credentials = "fuchicorp-service-account.json"

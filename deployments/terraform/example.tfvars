@@ -1,5 +1,0 @@
-deployment_image = "docker.csamatov.com/example:0.1"
-deployment_environment = "dev"
-deployment_name = "dotnetapp"
-google_bucket_name = "csamatov96_bucket"
-credentials = "common-service-account.json"

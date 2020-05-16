@@ -13,5 +13,5 @@ variable "deployment_endpoint" {
   }
 }
 variable "deployment_image" {
-  default = "docker.csamatov.com/example:0.2"
+  default = "docker.csamatov.com/example:0.1"
 }

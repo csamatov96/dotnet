@@ -10,6 +10,7 @@ variable "deployment_endpoint" {
     dev  = "dev.cramis.csamatov.com"
     qa   = "qa.cramis.csamatov.com"
     prod = "cramis.csamatov.com"
+    stage = "stage.csamatov.com"
   }
 }
 variable "deployment_image" {

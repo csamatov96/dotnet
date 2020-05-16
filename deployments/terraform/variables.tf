@@ -6,10 +6,10 @@ variable "deployment_endpoint" {
   type = "map"
 
   default = {
-    test  = "test.cramis.csamatov.com"
-    dev  = "dev.cramis.csamatov.com"
-    qa   = "qa.cramis.csamatov.com"
-    prod = "cramis.csamatov.com"
+    test  = "dev.cramis.csamatov.com"
+    dev  = "qa.cramis.csamatov.com"
+    qa   = "stage.cramis.csamatov.com"
+    prod = "prod.csamatov.com"
   }
 }
 variable "deployment_image" {

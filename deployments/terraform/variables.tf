@@ -6,9 +6,9 @@ variable "deployment_endpoint" {
   type = "map"
 
   default = {
+    test  = "test.cramis.csamatov.com"
     dev  = "dev.cramis.csamatov.com"
     qa   = "qa.cramis.csamatov.com"
-    stage  = "stage.cramis.csamatov.com"
     prod = "cramis.csamatov.com"
   }
 }

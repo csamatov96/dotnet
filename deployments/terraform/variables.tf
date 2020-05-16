@@ -1,5 +1,5 @@
 variable "deployment_environment" {
-  default = "dev"
+  default = "qa"
 }
 
 variable "deployment_endpoint" {
